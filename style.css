@@ -115,3 +115,75 @@ ul li:hover {
 .project-gallery img:hover {
     transform: scale(1.05); /* Slight zoom effect */
 }
+
+
+/* Project List Styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left; /* Align text to the left for better readability */
+}
+
+ul li {
+    margin: 20px 0;
+    display: flex; /* Use flex to align content */
+    align-items: center; /* Center the content vertically */
+}
+
+ul li strong {
+    margin-right: 10px; /* Space between the project title and image */
+    font-weight: bold;
+}
+
+.project-image {
+    margin-left: 10px; /* Space between project description and image */
+}
+
+.project-image img {
+    width: 80px; /* Set fixed width */
+    height: 80px; /* Set fixed height to make it a square */
+    object-fit: cover; /* Ensures the image maintains its aspect ratio within the square */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow effect */
+    transition: transform 0.3s ease;
+}
+
+/* Hover effect on images */
+.project-image img:hover {
+    transform: scale(1.1); /* Slight zoom effect */
+}
+
+/* Project List Styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left; /* Align text to the left for better readability */
+}
+
+ul li {
+    margin: 20px 0;
+    display: flex; /* Use flex to align content */
+    align-items: center; /* Center the content vertically */
+}
+
+ul li strong {
+    margin-right: 10px; /* Space between the project title and image */
+    font-weight: bold;
+}
+
+.project-image {
+    margin-left: 10px; /* Space between project description and image */
+}
+
+.project-image img {
+    width: 100px; /* Make images smaller */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow effect */
+    transition: transform 0.3s ease;
+}
+
+/* Hover effect on images */
+.project-image img:hover {
+    transform: scale(1.1); /* Slight zoom effect */
+}
