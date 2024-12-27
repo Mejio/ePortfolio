@@ -176,10 +176,11 @@ ul li strong {
 }
 
 .project-image img {
-    width: 100px; /* Make images smaller */
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow effect */
+    width: 50px; /* Set a smaller fixed width for the image */
+    height: 50px; /* Set the height to match the width for a square */
+    object-fit: cover; /* Ensures the image maintains its aspect ratio within the square */
+    border-radius: 8px; /* Optional: rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: light shadow effect */
     transition: transform 0.3s ease;
 }
 
