@@ -107,11 +107,13 @@ ul li:hover {
 .carousel img {
     width: 100%;
     display: none; /* Hide images by default */
-    transition: opacity 0.5s ease;
+    opacity: 0;
+    transition: opacity 0.5s ease; /* Fade transition */
 }
 
-.carousel img:first-child {
-    display: block; /* Show the first image by default */
+.carousel img.active {
+    display: block; /* Only show the active image */
+    opacity: 1;
 }
 
 .carousel-controls {
