@@ -93,3 +93,49 @@ ul li:hover {
     color: #007BFF;
     transition: color 0.3s ease;
 }
+
+/* Carousel Styles */
+.carousel {
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.carousel img {
+    width: 100%;
+    display: none; /* Hide images by default */
+    transition: opacity 0.5s ease;
+}
+
+.carousel img:first-child {
+    display: block; /* Show the first image by default */
+}
+
+.carousel-controls {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.carousel-controls button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.carousel-controls button:hover {
+    background-color: #0056b3;
+}
+
+.carousel-controls button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
