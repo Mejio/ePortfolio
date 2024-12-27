@@ -97,7 +97,6 @@ ul li:hover {
 /* Carousel Styles */
 .carousel {
     position: relative;
-    display: block;
     width: 100%;
     max-width: 600px;
     margin: 20px auto;
@@ -106,14 +105,11 @@ ul li:hover {
 
 .carousel img {
     width: 100%;
-    display: none; /* Hide images by default */
-    opacity: 0;
-    transition: opacity 0.5s ease; /* Fade transition */
+    display: none;
 }
 
 .carousel img.active {
-    display: block; /* Only show the active image */
-    opacity: 1;
+    display: block;
 }
 
 .carousel-controls {
@@ -129,15 +125,8 @@ ul li:hover {
     margin: 0 10px;
     cursor: pointer;
     font-size: 1rem;
-    transition: background-color 0.3s ease;
 }
 
 .carousel-controls button:hover {
     background-color: #0056b3;
 }
-
-.carousel-controls button:disabled {
-    background-color: #cccccc;
-    cursor: not-allowed;
-}
-

@@ -1,34 +1,30 @@
-// Carousel for project screenshots
-let currentSlide = {};
-const carousels = document.querySelectorAll('.carousel');
+document.addEventListener('DOMContentLoaded', function () {
+    let currentIndex = 0;
+    const images = document.querySelectorAll('.carousel img');
+    const totalImages = images.length;
 
-carousels.forEach((carousel) => {
-    const slides = carousel.querySelectorAll('img');
-    const totalSlides = slides.length;
-
-    let carouselId = carousel.classList.contains('project1-carousel') ? 'project1-carousel' : 'default-carousel';
-
-    currentSlide[carouselId] = 0;
-
-    function showSlide(index) {
-        slides.forEach((slide, i) => {
-            slide.classList.remove('active'); // Remove 'active' class from all images
+    // Function to display the current image
+    function showImage(index) {
+        images.forEach((img, i) => {
+            img.classList.remove('active'); // Remove 'active' from all images
             if (i === index) {
-                slide.classList.add('active'); // Add 'active' class to the current image
+                img.classList.add('active'); // Add 'active' to the current image
             }
         });
     }
 
-    showSlide(currentSlide[carouselId]);
+    // Show the first image initially
+    showImage(currentIndex);
 
-    carousel.querySelector('.prevSlide').addEventListener('click', () => {
-        currentSlide[carouselId] = (currentSlide[carouselId] - 1 + totalSlides) % totalSlides;
-        showSlide(currentSlide[carouselId]);
+    // Next button functionality
+    document.getElementById('nextSlide').addEventListener('click', function () {
+        currentIndex = (currentIndex + 1) % totalImages;
+        showImage(currentIndex);
     });
 
-    carousel.querySelector('.nextSlide').addEventListener('click', () => {
-        currentSlide[carouselId] = (currentSlide[carouselId] + 1) % totalSlides;
-        showSlide(currentSlide[carouselId]);
+    // Previous button functionality
+    document.getElementById('prevSlide').addEventListener('click', function () {
+        currentIndex = (currentIndex - 1 + totalImages) % totalImages;
+        showImage(currentIndex);
     });
 });
-
