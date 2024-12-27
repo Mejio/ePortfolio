@@ -6,9 +6,7 @@ Welcome to my ePortfolio. This small project showcases my personal projects, and
 - Home page with profile and bio
 - About me section
 - Smooth scrolling navigation.
-- A carousel for showcasing project screenshots.
-- A pop-up modal for contact form submissions.
-- Responsive design with a clean, professional aesthetic.
+- Responsive design
 
 ## Technologies Used
 The following technologies and tools were utilized to develop this ePortfolio:
