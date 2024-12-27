@@ -1,11 +1,10 @@
 # ePortfolio
 
-Welcome to my ePortfolio repository! This project showcases my personal achievements, projects, and skills as a Computer Science student. It is designed to highlight my academic and professional journey while demonstrating my proficiency in web development and design.
+Welcome to my ePortfolio. This small project showcases my personal projects, and skills as a Computer Science student. It is designed to highlight my academic and professional journey while demonstrating my proficiency in web development and design.
 
-## Description
-The ePortfolio is a responsive and interactive web application that presents an overview of my background, accomplishments, and projects. Visitors can navigate through sections, view featured projects, and get in touch with me through a contact form.
-
-Key features include:
+## Key features include:
+- Home page with profile and bio
+- About me section
 - Smooth scrolling navigation.
 - A carousel for showcasing project screenshots.
 - A pop-up modal for contact form submissions.
@@ -44,7 +43,7 @@ To replicate or contribute to this project, ensure you have the following:
 - Use the contact form to simulate sending a message (submission triggers a modal popup).
 
 ## Contributing
-Contributions are welcome! Follow these steps to contribute:
+Contributions are welcome here (just as long as you don't mess it up and commit changes, i won't allow that lol)! Follow these steps to contribute:
 
 1. Fork the repository on GitHub.
 2. Create a new branch for your feature or bugfix:
@@ -69,5 +68,5 @@ If you have any questions or suggestions, feel free to reach out:
 - **Email**: [orencia.kimryanjoseph18@gmail.com](mailto:orencia.kimryanjoseph18@gmail.com)
 - **GitHub**: [Mejio](https://github.com/Mejio)
 
-Thank you for visiting my ePortfolio repository!
+Thank you for visiting my ePortfolio!
 
