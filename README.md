@@ -1,4 +1,4 @@
-# ePortfolio Repository
+# ePortfolio
 
 Welcome to my ePortfolio repository! This project showcases my personal achievements, projects, and skills as a Computer Science student. It is designed to highlight my academic and professional journey while demonstrating my proficiency in web development and design.
 
