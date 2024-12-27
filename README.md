@@ -1,6 +1,6 @@
 # ePortfolio
 
-Welcome to my ePortfolio. This small project showcases my personal projects, and skills as a Computer Science student. It is designed to highlight my academic and professional journey while demonstrating my proficiency in web development and design.
+Welcome to my ePortfolio. This small project showcases my personal projects, and skills as a Computer Science student. It is designed to highlight my academic and professional journey while demonstrating my proficiency in web development and design. (Had to redo, old ePortfolio was deleted)
 
 ## Key features include:
 - Home page with profile and bio
