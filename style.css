@@ -31,11 +31,12 @@ nav a {
     text-decoration: none;
     color: #333;
     font-size: 1.2rem;
-    transition: color 0.3s ease;
+    transition: color 0.3s ease, transform 0.3s ease;
 }
 
 nav a:hover {
     color: #007BFF;
+    transform: scale(1.1); /* Slightly enlarges the link on hover */
 }
 
 /* Container Styles */
@@ -55,6 +56,12 @@ nav a:hover {
     padding-bottom: 10px;
     margin-bottom: 20px;
     font-size: 1.8rem;
+    transition: color 0.3s ease, letter-spacing 0.3s ease;
+}
+
+.section h2:hover {
+    color: #007BFF;
+    letter-spacing: 2px; /* Adds spacing between letters on hover */
 }
 
 .section p {
@@ -79,4 +86,10 @@ ul {
 
 ul li {
     margin: 10px 0;
+}
+
+/* Animation for hover effects */
+ul li:hover {
+    color: #007BFF;
+    transition: color 0.3s ease;
 }
