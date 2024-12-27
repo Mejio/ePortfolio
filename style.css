@@ -94,3 +94,24 @@ ul li:hover {
     transition: color 0.3s ease;
 }
 
+/* General Styles for the Image Gallery */
+.project-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid */
+    gap: 10px; /* Space between images */
+    justify-items: center;
+    margin-top: 20px;
+}
+
+.project-gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow effect */
+    transition: transform 0.3s ease;
+}
+
+/* Hover effect on images */
+.project-gallery img:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+}
